@@ -1,0 +1,35 @@
+Main()
+│
+├── CreateTargets()
+│   └── GetTarget() # wrapper around random.randint()
+│
+├── FillNumbers()
+│   └── GetNumber() # wrapper around random.randint()
+│
+└── PlayGame()
+    │
+    ├── DisplayState()
+    │   ├── DisplayTargets()
+    │   ├── DisplayNumbersAllowed()
+    │   └── DisplayScore()
+    │
+    ├── CheckIfUserInputValid()
+    │
+    ├── ConvertToRPN()
+    │   └── GetNumberFromUserInput()
+    │
+    ├── CheckNumbersUsedAreAllInNumbersAllowed()
+    │   └── CheckValidNumber()
+    │
+    ├── CheckIfUserInputEvaluationIsATarget()
+    │   └── EvaluateRPN()
+    │
+    ├── RemoveNumbersUsed()
+    │   ├── ConvertToRPN()
+    │   └── CheckValidNumber()
+    │
+    ├── FillNumbers()
+    │   └── GetNumber()
+    │
+    └── UpdateTargets()
+        └── GetTarget()
