@@ -1,0 +1,3 @@
+T0 Fix the scoring bug whereby n targets cleared give you 2n-1 points instead of n points
+T1 Modify the program so that (1) the player can use each number more than once and (2) the game does not allow repeats within the 5 numbers given
+T2 Modify the program so expressions with whitespace (spaces) are accepted
